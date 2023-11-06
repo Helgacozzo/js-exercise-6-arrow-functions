@@ -45,26 +45,37 @@
 // Usa JavaScript per aggiungere un nuovo elemento di lista alla fine della lista usando appendChild.
 // Poi usa insertBefore per aggiungere un elemento di lista all'inizio della lista.
 
-const listaPietre = ['Quarzo rosa', 'Ossidiana', 'Ametista']
+// const listaPietre = ['Quarzo rosa', 'Ossidiana', 'Ametista']
 
-window.addEventListener('load', () =>{
-    const body = document.body;
+// window.addEventListener('load', () =>{
+//     const body = document.body;
 
-    const ul = document.createElement('ul');
-    for(let i=0; i<listaPietre.length; i++){
-        const li = document.createElement('li');
-       li.innerText = listaPietre[i];
-       ul.appendChild(li);
-    }
+//     const ul = document.createElement('ul');
+//     for(let i=0; i<listaPietre.length; i++){
+//        const li = document.createElement('li');
+//        li.innerText = listaPietre[i];
+//        ul.appendChild(li);
+//     }
 
-    body.appendChild(ul);
+//     body.appendChild(ul);
 
-});
+//     const aggiungiElementoFinale = document.createElement('li');
+//     aggiungiElementoFinale.innerText = 'Occhio di tigre';
+//     ul.appendChild(aggiungiElementoFinale);
+
+
+//     const aggiungiElementoIniziale = document.createElement('li');
+//     aggiungiElementoIniziale.innerText = 'Corniola';
+//     ul.insertBefore(aggiungiElementoIniziale, ul.firstChild);
+
+// });
 
 
 // Esercizio 5: Crea un elemento div con class 'blu'.
 // Usa JavaScript per controllare al click se il div ha la classe 'blu' usando classList.includes().
 // Poi usa classList.add() per aggiungere una classe 'rosso' e classList.remove() per rimuovere la classe 'blu'.
+
+
 
 
 // Esercizio 6: Crea un pulsante in HTML. 
