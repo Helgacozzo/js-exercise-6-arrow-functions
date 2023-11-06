@@ -75,34 +75,22 @@
 // Usa JavaScript per controllare al click se il div ha la classe 'blu' usando classList.includes().
 // Poi usa classList.add() per aggiungere una classe 'rosso' e classList.remove() per rimuovere la classe 'blu'.
 
-// const listaPietre = ['Quarzo rosa', 'Ossidiana', 'Ametista']
+// const listaPietre = ['Quarzo rosa', 'Ossidiana', 'Ametista'];
 
-// const creaLi = text => {
-//     const li = document.createElement('li');
-//     li.setAttribute('class', 'blu');
-//     li.innerText = text;
-//     li.addEventListener('click', function(){
-//         if(this.classList.contains('blue')){
-//             this.classList.remove('blu');
+// const creaDiv = text => {
+//     const div = document.createElement('div');
+//     div.setAttribute('class', 'blu');
+//     div.innerText = text;
+//     div.addEventListener('click', function(){
+//         if(this.classList.contains('blu')){
+//             this.classList.remove('unset');
 //         }else{
-//             this.classList.add('blu')
+//             this.classList.add('rosso');
 //         }
 //     })
+
+//     return div;
 // }
-
-// window.addEventListener('load', () =>{
-//     const body = document.body;
-
-//     const ul = document.createElement('ul');
-//     for(let i=0; i<listaPietre.length; i++){
-//        const li = document.createElement('li');
-//        li.innerText = listaPietre[i];
-//        ul.appendChild(li);
-//     }
-
-//     body.appendChild(ul);
-
-// });
 
 
 // Esercizio 6: Crea un pulsante in HTML. 
@@ -117,3 +105,18 @@
 // Esercizio 7: Crea un elemento div. Aggiungi un evento onmouseover che cambia il colore del div. 
 // Aggiungi un evento onmouseout che cambia il colore del div indietro.
 // Aggiungi un evento click che stampa un messaggio in console.
+
+// window.addEventListener('load', () =>{
+//     const div = document.createElement('div');
+//     div.addEventListener('mouseover', function(){
+//         this.style.backgroundColor = 'red';
+//     })
+//     div.addEventListener('mouseout', function(){
+//         this.style.backgroundColor = 'unset';
+//     })
+
+//     div.addEventListener('click', function(){
+//         const messaggio = 'ciao';
+//         console.log(messaggio);
+//     })
+// });
