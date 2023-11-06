@@ -75,11 +75,43 @@
 // Usa JavaScript per controllare al click se il div ha la classe 'blu' usando classList.includes().
 // Poi usa classList.add() per aggiungere una classe 'rosso' e classList.remove() per rimuovere la classe 'blu'.
 
+// const listaPietre = ['Quarzo rosa', 'Ossidiana', 'Ametista']
 
+// const creaLi = text => {
+//     const li = document.createElement('li');
+//     li.setAttribute('class', 'blu');
+//     li.innerText = text;
+//     li.addEventListener('click', function(){
+//         if(this.classList.contains('blue')){
+//             this.classList.remove('blu');
+//         }else{
+//             this.classList.add('blu')
+//         }
+//     })
+// }
+
+// window.addEventListener('load', () =>{
+//     const body = document.body;
+
+//     const ul = document.createElement('ul');
+//     for(let i=0; i<listaPietre.length; i++){
+//        const li = document.createElement('li');
+//        li.innerText = listaPietre[i];
+//        ul.appendChild(li);
+//     }
+
+//     body.appendChild(ul);
+
+// });
 
 
 // Esercizio 6: Crea un pulsante in HTML. 
 // Usa JavaScript per impostare un attributo 'disabled' sul pulsante usando setAttribute().
+
+// window.addEventListener('load', () =>{
+//     const button = document.getElementById('myButton');
+//     button.setAttribute('class', 'disabled');
+// });
 
 
 // Esercizio 7: Crea un elemento div. Aggiungi un evento onmouseover che cambia il colore del div. 
